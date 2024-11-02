@@ -1,72 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-@media (max-width:700px)  {
-    body{
+
+@media (max-width:700px) {
+    body {
         background-color: rgb(111, 114, 114);
 
     }
-    .perfil{
+
+    .perfil {
         background-color: rgb(17, 17, 17);
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        
+
     }
-    .perfil2{
+
+    .perfil2 {
         min-height: 100vh;
         background-color: rgb(43, 40, 40);
-        
+
     }
-    button{
+
+    button {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 20px;
     }
-    
-} 
-main{
+
+}
+
+main {
     color: aliceblue;
-    
-}   
-.perfil{
+
+}
+
+.perfil {
     min-height: 100vh;
     background-color: rgb(17, 17, 17);
     display: flex;
     justify-content: center;
-    align-items: center; 
-    text-align: center;       
+    align-items: center;
+    text-align: center;
 }
-img{
+
+img {
     border-radius: 50%;
+    width: 176px;
+    height: 176px;
 
 }
-.perfil2{
+
+.perfil2 {
     border-radius: 20px;
     background-color: rgb(43, 40, 40);
     padding: 20px;
 
 }
-strong{
+
+h1 {
+    border-bottom: ridge 1px;
+}
+
+strong {
     display: flex;
     margin-left: 30px;
     color: rgb(226, 164, 71);
     font-size: 18px;
     margin-bottom: 20px;
 }
-.butoes{
+
+.butoes {
     display: flex;
     flex-direction: column;
 }
 
-button{
-    position: relative;
+.nome-descricao-botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+button {
     margin: 10px;
     height: 30px;
-    left: 15%;
     width: 200px;
     border-radius: 10px;
     color: rgb(240, 232, 232);
