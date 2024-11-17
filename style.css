@@ -63,6 +63,7 @@ img {
 
 h1 {
     border-bottom: ridge 1px;
+    font-family: Item; 
 }
 
 strong {
