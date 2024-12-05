@@ -37,6 +37,48 @@ main {
     color: aliceblue;
 
 }
+.novo .o-novo img{
+padding: 20px;
+width: 250px;
+height: 250px;
+}
+.o-novo{
+    background-color: rgb(28, 29, 28);
+    width: 300px;
+    height: 900px;
+}
+.novo{
+    display: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+background-color: rgb(18, 23, 27);
+}
+.o-novo li{
+    background-color: rgb(229, 200, 160);
+    border: 1px solid;
+    border-radius: 10px;
+    flex-flow: column;
+    padding: 20px;
+    width: 200px;
+    display: block;
+    text-align: center;
+}
+
+.novo h2{
+    color: blanchedalmond;
+    font-size: 30px;
+    padding: 10px 0 20px 20px;
+}
+.novo strong{
+    padding: 0;
+    font-size: 20px;
+}
+
 
 .perfil {
     min-height: 100vh;
