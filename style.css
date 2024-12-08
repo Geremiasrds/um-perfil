@@ -42,20 +42,22 @@ padding: 20px;
 width: 250px;
 height: 250px;
 }
+#off{
+    display: none;
+}
 .o-novo{
     background-color: rgb(28, 29, 28);
     width: 300px;
-    height: 900px;
+    height: 750px;
 }
 .novo{
-    display: none;
-    display: block;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-width: 100vh;
     min-height: 100vh;
-    display: flex;
+    
 background-color: rgb(18, 23, 27);
 }
 .o-novo li{
