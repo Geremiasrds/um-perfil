@@ -29,7 +29,7 @@ document.getElementById("gitHub").addEventListener('click', () => {
         <ul>${meuRepos}</ul>
         </div>
         `
-
+     
     })
     let aplicarInfor = buscarDados().then(infor => {
         let addInfor =
@@ -44,6 +44,9 @@ document.getElementById("gitHub").addEventListener('click', () => {
 
 
     })
+    
 })
 
-
+function whatsapp(){
+window.location.href = ("https://wa.me/5591986128843?text=Ola")
+}
